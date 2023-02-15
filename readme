@@ -1,0 +1,12 @@
+Esse programa permite converter um arquivo pdf em csv, e desse modo trabalhar os dados contidos no arquivo.
+Será possivel extrair informações como, faturamento total, quantidade de serviços prestados para cada cliente.
+
+Funcionalidades
+
+()converter um arquivo pdf em csv
+()Extrair as informações importantes do arquivo (limpar o arquivo)
+()Analisar as informações contidas no arquivo
+
+Biblioteca 
+()Pandas
+()Tabula
