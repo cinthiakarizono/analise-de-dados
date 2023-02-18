@@ -1,7 +1,13 @@
 import pandas as pd
 import tabula
 
-# converter pdf em csv
-relatorio = tabula.read_pdf("arquivos/relatorio.pdf", pages = "all")
-print(relatorio)
-filtrado = relatorio["Líquido"]
+
+relatorio = pd.read_excel("arquivos\drive.xlsx")
+convenio = relatorio["CONVENIO"]
+#Definindo quais são os convenios existentes
+convenios = set(convenio)
+print(convenios)
+
+if "BRUN" in convenio:
+    print("sim")
+
