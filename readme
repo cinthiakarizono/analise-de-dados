@@ -1,12 +1,15 @@
-Esse programa permite converter um arquivo pdf em csv, e desse modo trabalhar os dados contidos no arquivo.
-Será possivel extrair informações como, faturamento total, quantidade de serviços prestados para cada cliente.
+# Analise de dados
+
+Esse programa permite extrair informações de uma base de dados, e desse modo trabalhar os dados contidos no arquivo.
+Será possivel extrair informações como, faturamento total e quantidade de serviços prestados para cada cliente.
+Esses tipo de informações são necessarias no dia a dia do financeiro de uma empresa.
+Para utlizar as funcionalidades do programa é necessario fazer o upload da base de dados a ser analisada em formato excel.
 
 Funcionalidades
 
-()converter um arquivo pdf em csv
-()Extrair as informações importantes do arquivo (limpar o arquivo)
-()Analisar as informações contidas no arquivo
+(x)Extrair as informações importantes do arquivo
+(x)Analisar as informações contidas no arquivo
 
 Biblioteca 
-()Pandas
-()Tabula
+Para utilizar esse programa é necessario instalar o Pandas com o pip install no terminal.
+
